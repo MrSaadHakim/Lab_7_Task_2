@@ -1,18 +1,20 @@
 # Lab 7 Task 2 – Inheritance and Multi-Level Class Hierarchy
 
-This program demonstrates Java inheritance using abstract classes and multi-level class hierarchy.
+This program shows how inheritance works in Java using abstract classes and multi-level class structures.
 
-The abstract class **Animal** defines the base structure for all animals with:
-- name, age, and weight fields  
-- abstract methods `eat()` and `getVoice()`
+The main abstract class **Animal** defines basic info for all animals:
+- name  
+- age  
+- weight  
+- and two abstract methods: `eat()` and `getVoice()`
 
-### Inheritance structure
-- `Animal`  
-  ↳ `Mammal` → `Dog`  
-  ↳ `Bird` → `Pigeon`  
-  ↳ `Fish` → `Blowfish`
+### Class Structure
+- **Animal**
+  - → **Mammal** → **Dog**
+  - → **Bird** → **Pigeon**
+  - → **Fish** → **Blowfish**
 
-Each subclass overrides the abstract methods and adds its own unique field (like `breed`, `species`, `diameter`, etc).
+Each subclass overrides the abstract methods and adds its own specific field (like `breed`, `species`, or `diameter`).
 
 ---
 
